@@ -12,8 +12,23 @@ The website will let users select specific statistical categories and use curren
 2. As a ```baseball fan```, I want to ```research my favorite players' output``` so that I can ```be more informed about my team.```
 3. As a ```gambler```, I want to ```analyze specific player data``` so that I can ```place wagers more effectively.```
 
+
 #### Wire Frame
+
 Using LucidChart
 
+
 #### Stats API
+
 https://www.mysportsfeeds.com/data-feeds/api-docs
+
+
+#### Database Structure
+
+```
+User {
+    id:
+    name:
+    category_config:
+}
+```
